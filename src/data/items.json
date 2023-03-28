@@ -12,13 +12,13 @@
         "imgUrl":"/public/imgs/computer.jpg"
     },
     {
-        "id":1,
+        "id":3,
         "name":"Fruits",
         "price":1.99,
         "imgUrl":"/public/imgs/banana.jpg"
     },
     {
-        "id":1,
+        "id":4,
         "name":"Cars",
         "price":12380.99,
         "imgUrl":"/public/imgs/car.jpg"
