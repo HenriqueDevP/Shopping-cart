@@ -38,14 +38,7 @@ export function CartItem({id,quantity}:CartItemProps){
 <Button variant="danger" size='sm' onClick={()=>removeFromCart(items.id)}>X</Button>
    
          </Stack>
-         <div className="ms-auto fw-bold fs5">
-        Total:{
-formatCurrency(cartItems.reduce((total,cartItem)=>{
-    const item=StoreItems.find(i=>i.id===cartItem.id)
-return total+(item?.price ||0) *cartItem.quantity
-},0))
-        }
-     </div>
+
         </>
     )
 }
